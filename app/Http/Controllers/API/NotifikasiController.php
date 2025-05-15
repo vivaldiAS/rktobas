@@ -52,4 +52,4 @@ class NotifikasiController extends Controller
             $merchantUser->notify(new ProductPurchasedNotification($purchase_id, $productPurchase->product_name));
         }
     }
-}
+}   
